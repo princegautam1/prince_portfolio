@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff5722;
+        }
+        .link-test {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Project Link Test</h1>
+    
+    <div class="link-test">
+        <h2>Zakaa Education</h2>
+        <p>Link: <a href="https://zakaa.onalpha.co/planning/login" target="_blank">https://zakaa.onalpha.co/planning/login</a></p>
+        <button onclick="testLink('https://zakaa.onalpha.co/planning/login')">Test Link</button>
+        <div id="result1"></div>
+    </div>
+
+    <div class="link-test">
+        <h2>Start Naukri</h2>
+        <p>Link: <a href="https://startnaukri.com/" target="_blank">https://startnaukri.com/</a></p>
+        <button onclick="testLink('https://startnaukri.com/')">Test Link</button>
+        <div id="result2"></div>
+    </div>
+
+    <div class="link-test">
+        <h2>Amber Connect</h2>
+        <p>Link: <a href="https://amberconnect.ai/" target="_blank">https://amberconnect.ai/</a></p>
+        <button onclick="testLink('https://amberconnect.ai/')">Test Link</button>
+        <div id="result3"></div>
+    </div>
+
+    <div class="link-test">
+        <h2>Infosense AI</h2>
+        <p>Link: <a href="https://www.infosense.tech/" target="_blank">https://www.infosense.tech/</a></p>
+        <button onclick="testLink('https://www.infosense.tech/')">Test Link</button>
+        <div id="result4"></div>
+    </div>
+
+    <script>
+        function testLink(url) {
+            const resultId = 'result' + (Array.from(document.querySelectorAll('.link-test')).findIndex(div => div.querySelector('a').href === url) + 1);
+            const resultElement = document.getElementById(resultId);
+            
+            resultElement.innerHTML = "Testing link...";
+            
+            fetch(url, { mode: 'no-cors' })
+                .then(() => {
+                    resultElement.innerHTML = "Link appears to be accessible (note: no-cors mode can't verify full connectivity)";
+                    resultElement.style.color = "green";
+                    window.open(url, '_blank');
+                })
+                .catch(error => {
+                    resultElement.innerHTML = "Error accessing link: " + error.message;
+                    resultElement.style.color = "red";
+                });
+        }
+    </script>
+</body>
+</html> 

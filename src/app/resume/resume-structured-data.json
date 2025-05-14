@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "Prince Gautam",
+  "url": "https://princegautam.com/resume",
+  "image": "https://princegautam.com/profile-photo.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/prince-gautam-developer",
+    "https://github.com/princegautam1"
+  ],
+  "jobTitle": "Front-end Developer",
+  "telephone": "+919630940880",
+  "email": "princegautam8764@gmail.com",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Infograins Software Solutions"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Shri Ram Institute of Science and Technology, Jabalpur",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Computer Science Department"
+      },
+      "degree": "Bachelor of Technology"
+    }
+  ],
+  "knowsAbout": [
+    "React.js", 
+    "Next.js", 
+    "TypeScript", 
+    "JavaScript", 
+    "HTML", 
+    "CSS", 
+    "Redux", 
+    "SQL",
+    "Front-end Development",
+    "Web Applications"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Barhi",
+    "addressRegion": "Katni, Madhya Pradesh",
+    "addressCountry": "India"
+  },
+  "workLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Remote"
+    }
+  },
+  "description": "Motivated and detail-oriented Front-end Developer with hands-on experience in building scalable web applications using React.js and Next.js. Skilled at collaborating with cross-functional teams to design and implement interactive user interfaces and improve overall project performance.",
+  "skills": [
+    "Front-end Development",
+    "React.js",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Redux",
+    "SQL",
+    "Git",
+    "GitHub",
+    "Python"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Introduction to Front-end development",
+      "educationalLevel": "Beginner",
+      "credentialCategory": "Certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Meta"
+      },
+      "validIn": {
+        "@type": "Country",
+        "name": "Worldwide"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "ReactJS Certification",
+      "credentialCategory": "Certificate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "HackerRank"
+      }
+    }
+  ],
+  "workExample": [
+    {
+      "@type": "CreativeWork",
+      "name": "Project Zakaa",
+      "creator": {
+        "@type": "Person",
+        "name": "Prince Gautam"
+      },
+      "description": "Collaborated with cross-functional teams and external clients to gather requirements and ensure timely delivery of projects.",
+      "programmingLanguage": ["Next.js", "TypeScript"]
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Start Naukri",
+      "creator": {
+        "@type": "Person",
+        "name": "Prince Gautam"
+      },
+      "description": "Comprehensive campus hiring platform connecting job seekers and students with top employers. Enables hiring managers to efficiently manage applications, track candidate progress in real-time and schedule live interviews.",
+      "programmingLanguage": ["React.js", "JavaScript"]
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Infosense Website Redesign",
+      "creator": {
+        "@type": "Person",
+        "name": "Prince Gautam"
+      },
+      "description": "Redesigned the existing company website, enhancing responsiveness, SEO, and user experience through modern design and optimized performance.",
+      "programmingLanguage": ["Next.js", "JavaScript"]
+    }
+  ]
+} 

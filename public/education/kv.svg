@@ -1,0 +1,7 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  <polygon points="250,50 450,250 250,450 50,250" fill="#e74c3c"/>
+  <circle cx="250" cy="250" r="100" fill="white"/>
+  <text x="250" y="240" font-family="Arial" font-size="42" fill="#e74c3c" text-anchor="middle">KV</text>
+  <text x="250" y="290" font-family="Arial" font-size="20" fill="#e74c3c" text-anchor="middle">Kendriya Vidyalaya</text>
+</svg> 
